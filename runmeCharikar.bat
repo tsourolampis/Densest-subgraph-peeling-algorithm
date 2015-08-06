@@ -1,0 +1,1 @@
+FOR %%f IN (*.txt) DO CharikarPeel.exe < %%f > "%%f-Charikar-results" 

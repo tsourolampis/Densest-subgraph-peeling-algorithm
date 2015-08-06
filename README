@@ -1,0 +1,19 @@
+Peeling algorithm for the densest subgraph problem. 
+
+The algorithm appears in "Greedy Approximation Algorithms for Finding
+Dense Components in a Graph", Moses Charikar, APPROX'00. 
+
+The algorithm was used in 
+http://people.seas.harvard.edu/~babis/kcliqueDSP.pdf
+and was used to produce the results in the WWW’15 paper 
+
+
+Compile: g++ CharikarPeel.cpp -o CharikarPeel -std=gnu++0x -O3
+Demo: ./CharikarPeel.exe < toy.txt > toy.log 
+Author: Charalampos E. Tsourakakis,
+
+
+— 
+
+Provided for academic use only. For non-academic/commercial use contact 
+Charalampos E. Tsourakakis  babis@seas.harvard.edu 
